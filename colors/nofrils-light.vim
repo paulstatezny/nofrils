@@ -28,15 +28,15 @@ hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=255 gui=NONE guifg=#000000 
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
-hi Comment term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
-hi FoldColumn term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+hi FoldColumn term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
 hi Folded term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
-hi LineNr term=NONE cterm=NONE ctermfg=248 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
-hi NonText term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+hi LineNr term=NONE cterm=NONE ctermfg=255 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
+hi NonText term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
 hi SignColumn term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
-hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
-hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
+hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=255 gui=NONE guifg=fg guibg=#A8A8A8
+hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=255 gui=NONE guifg=fg guibg=#A8A8A8
 
 " Highlighted
 hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
@@ -82,7 +82,7 @@ hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline
 " Vim Features
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi TabLineFill term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
+hi TabLineFill term=NONE cterm=NONE ctermfg=fg ctermbg=255 gui=NONE guifg=fg guibg=#A8A8A8
 hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
@@ -133,8 +133,8 @@ hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=blac
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=black ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=248 ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
-    hi LineNr term=NONE cterm=NONE ctermfg=248 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
+    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
+    hi LineNr term=NONE cterm=NONE ctermfg=255 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
@@ -144,9 +144,9 @@ function! NofrilsFocusComments()
 endfunction
 
 function! NofrilsFocusCode()
-    hi Comment term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+    hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
     hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
-    hi LineNr term=NONE cterm=NONE ctermfg=248 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
+    hi LineNr term=NONE cterm=NONE ctermfg=255 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
@@ -157,9 +157,9 @@ function! NofrilsFocusCode()
 endfunction
 
 function! NofrilsNormal()
-    hi Comment term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+    hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
     hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
-    hi LineNr term=NONE cterm=NONE ctermfg=248 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
+    hi LineNr term=NONE cterm=NONE ctermfg=255 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
