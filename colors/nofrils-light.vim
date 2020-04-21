@@ -27,7 +27,7 @@ set background=light
 hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
 
 " Faded
-hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#DADADA
 hi Comment term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
 hi FoldColumn term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
 hi Folded term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
@@ -39,10 +39,10 @@ hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg gu
 hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
 
 " Highlighted
-hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#DADADA
 hi CursorIM term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
 hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
-hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#DADADA
 hi Cursor term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
@@ -151,8 +151,8 @@ function! NofrilsFocusCode()
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
     end
 endfunction
 
@@ -165,8 +165,8 @@ function! NofrilsNormal()
 
     " Optional Syntax Features
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#DADADA
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#DADADA
     end
     if g:nofrils_heavycomments
         hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
